@@ -93,3 +93,24 @@ footer {
 .fab.fa-whatsapp {
     color: #fff;
 }
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .carousel-caption {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+    
+    .card-text {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
